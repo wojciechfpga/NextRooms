@@ -40,7 +40,7 @@ export const handleSubmit = async(formData,token) => {
     alert("Some error")   
   })}
 
-  export const sendReservation = async(formData,token) => {
+export const sendReservation = async(formData,token) => {
     await axios.post("http://localhost:5000/api/reservations",formData, {
     headers: {
       'Content-Type': 'application/json', 

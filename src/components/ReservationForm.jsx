@@ -1,7 +1,7 @@
 'use client';
 import React, { useEffect } from "react";
 import { useForm } from "react-hook-form";
-import { sendReservation } from "src/services/apiService";
+import { sendReservation } from "@/services/apiService";
 import { useSelector } from "react-redux";
 
 
